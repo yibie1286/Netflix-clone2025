@@ -1,0 +1,55 @@
+.header-outer-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111; /* Consistent black background */
+  height: 10vh; /* Adjusted for a standard header height */
+  color: #fff; /* White text */
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+  z-index: 1;
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between; /* Maintains space between left and right sections */
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header-left ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.header-left li {
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  /* Center text vertically within li */
+  display: flex;
+  align-items: center;
+}
+
+.header-right ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.header-right li {
+  cursor: pointer;
+  color: #fff;
+  /* Center text/icon vertically within li */
+  display: flex;
+  align-items: center;
+}
